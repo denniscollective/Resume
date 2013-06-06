@@ -76,4 +76,4 @@ DESCRIPITON
 
 resume = [blazing_cloud, diaspora, pivotal, circle_voting, internaut].inject({}) {|resume, job| resume.merge(job.to_hash)}
 
-File.open("resume.json", 'w') { |file| file.write(JSON.pretty_generate(resume).gsub(/\\n/, "\n\t\t\t")) }
+File.open("resume.json", 'w') { |file| file.write(JSON.pretty_generate(resume).gsub(/\\n/, "\n")) }
