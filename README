@@ -1,1 +1,6 @@
-check out https://github.com/denniscollective/resume/blob/master/resume.json
+simply run
+    $ ruby resume.rb
+
+or check out https://github.com/denniscollective/resume/blob/master/resume.json
+
+;-)
