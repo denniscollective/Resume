@@ -30,8 +30,8 @@ internaut.end_date = Date.parse("2010-1-15")
 internaut.title = "Intern-Superstar"
 internaut.skills = rails_dev
 internaut.description = <<-DESCRIPTION
-Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's scrum project management tool "ScrumNinja",
-as well as client projects.
+Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's
+scrum project management tool "ScrumNinja", as well as client projects.
 DESCRIPTION
 
 circle_voting = Job.new("Circle Voting")
@@ -61,8 +61,8 @@ diaspora.end_date = Date.parse("2012-1-7")
 diaspora.title = "Chief Magical Officer"
 diaspora.skills = [:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]
 diaspora.description = <<-DESCRIPTION
-Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy operations cost,
-which was holding back development from being able to scale the platform effectively.
+Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy
+operations cost, which was holding back development from being able to scale the platform effectively.
 DESCRIPTION
 
 blazing_cloud = Job.new("Blazing Cloud")
