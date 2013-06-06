@@ -11,7 +11,8 @@
     "end_date": "2012-01-07",
     "title": "Chief Magical Officer",
     "skills": "[:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]",
-    "description": "Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy operations cost,\nwhich was holding back development from being able to scale the platform effectively."
+    "description": "Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy operations cost,
+			which was holding back development from being able to scale the platform effectively."
   },
   "Pivotal Labs": {
     "website": "http://pivotallabs.com",
@@ -34,6 +35,7 @@
     "end_date": "2010-01-15",
     "title": "Intern-Superstar",
     "skills": "[:ruby, :pair_programming, :test_driven_development, :rails, :javascript, :jquery]",
-    "description": "Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's scrum project management tool \"ScrumNinja\",\nas well as client projects."
+    "description": "Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's scrum project management tool \"ScrumNinja\",
+			as well as client projects."
   }
 }
