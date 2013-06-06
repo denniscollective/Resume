@@ -1,0 +1,39 @@
+{
+  "Blazing Cloud": {
+    "start_date": "2012-11-15",
+    "title": "Software Artisan",
+    "skills": "[:team_lead, :tech_lead, :agile_slash_lean, :team_building, :advanced_javascript_and_rails_wizardry]",
+    "description": "Work with teams to change the world."
+  },
+  "Diaspora": {
+    "website": "https://joindiaspora.com",
+    "start_date": "2012-01-01",
+    "end_date": "2012-01-07",
+    "title": "Chief Magical Officer",
+    "skills": "[:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]",
+    "description": "Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy operations cost,\nwhich was holding back development from being able to scale the platform effectively."
+  },
+  "Pivotal Labs": {
+    "website": "http://pivotallabs.com",
+    "start_date": "2011-01-01",
+    "end_date": "2011-12-31",
+    "title": "Agile Software Engineer",
+    "skills": "[:pair_progamming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]",
+    "description": "Worked on client projects, both to build teams and as a hired gun."
+  },
+  "Circle Voting": {
+    "start_date": "2010-01-15",
+    "end_date": "2010-10-01",
+    "title": "Software Developer",
+    "skills": "[:ruby, :pair_programming, :test_driven_development, :rails, :javascript, :jquery]",
+    "description": "Developed a social network around voting and civic activism for the 2010 mid-term elections."
+  },
+  "Internaut Design": {
+    "website": "http://internautdesign.com",
+    "start_date": "2009-06-01",
+    "end_date": "2010-01-15",
+    "title": "Intern-Superstar",
+    "skills": "[:ruby, :pair_programming, :test_driven_development, :rails, :javascript, :jquery]",
+    "description": "Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's scrum project management tool \"ScrumNinja\",\nas well as client projects."
+  }
+}
