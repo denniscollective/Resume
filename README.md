@@ -47,7 +47,7 @@ I try to work sensibly and sustainably with teams who take pride in their work.
   "Diaspora": {
     "website": "https://joindiaspora.com",
     "start_date": "2012-01-01",
-    "end_date": "2012-01-07",
+    "end_date": "2012-07-01",
     "title": "Chief Magical Officer",
     "skills": [
       "tech_lead",
