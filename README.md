@@ -1,7 +1,7 @@
 To regenerate this file run:
     $ ruby resume.rb
 
-You migh twant to see what else you can learn by reading the source
+You might want to see what else you can learn by reading the source
 https://github.com/denniscollective/resume/blob/master/resume.rb
 
 # In Brief:
