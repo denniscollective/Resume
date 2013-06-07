@@ -13,11 +13,19 @@ class Job
     "\n      " + @description.strip
   end
 
+  def start_date
+    @start_date.to_s
+  end
+
+  def end_date
+    @end_date.to_s
+  end
+
   def to_hash
     {
       @company => ATTRIBUTES.inject({}) do |job, attribute|
         value = self.send(attribute)
-        job.merge!(attribute => value.to_s) if value
+        job.merge!(attribute => value) if value
         job
       end
     }
@@ -67,9 +75,9 @@ class History
       job.title = "Agile Software Engineer"
       job.skills = [:pair_programming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]
       job.description = <<-DESCRIPTION
-      Worked with Pivotal Labs to Develop applications for clients. The clients presented many different needs
-      such as having a team trained up, working with existing teams to refine practices and add horsepower,
-      help prioritize a sensible course of development for the business trajectory, and glitter.
+      Worked with Pivotal Labs to Develop applications for clients. The clients presented many different
+      needs such as having a team trained up, working with existing teams to refine practices and add
+      horsepower, help prioritize a sensible course of development for the business trajectory, and glitter.
       DESCRIPTION
     end
   end
@@ -86,9 +94,10 @@ class History
       Diaspora is a distributed open source social network. On joining the core team was burdened with
       a heavy operations cost, which was holding back development from being able to scale the platform
       effectively. Through a separation of client and server side applications, server throughput was
-      increased by an order of magnitude. Development of the client as a Javascript Application (Backbone)
-      allowed us to rapidly iterate on experimental experiences. We delivered a completely
-      different product called Mark.io (https://makr.io/) on that utilized the existing server architecture.
+      increased by an order of magnitude. Development of the client as a Javascript Application
+      (Backbone) allowed us to rapidly iterate on experimental experiences. We delivered a completely
+      different product called Mark.io (https://makr.io/) on that utilized the existing server
+      architecture.
 
       Through a simplification of Infrastructure (removing unnecessary services and dependencies) we
       were able to run Diaspora on the Heroku platform, allowing the developers/business owners to
@@ -101,7 +110,7 @@ class History
     Job.new("Blazing Cloud").tap do |job|
       job.start_date = Date.parse("2012-11-15")
       job.title = "Software Artisan"
-      job.skills = [:team_lead, :tech_lead, :agile_slash_lean, :team_building, :advanced_javascript_and_rails_wizardry]
+      job.skills = [:team_lead, :tech_lead, :agile_slash_lean, :team_building, :javascript_and_rails_wizardry]
       job.description = <<-DESCRIPITON
       Work with stake holders to help define products that fill a need.
       Work with developers to build teams that make great software that fills actual business needs.
