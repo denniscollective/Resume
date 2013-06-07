@@ -137,13 +137,14 @@ SNARK
 
   def abstract
 <<ABSTRACT
-In Brief:
+# In Brief:
 
 I enjoy the challenge of working with human beings to create software the fills a real need. I've been making websites
 since shortly after I was born, to that end, I am as interested in human aspects as I am the technical side of things.
 I try to work sensibly and sustainably with teams who take pride in their work.
 
-I am not afraid of the words:
+## I am not afraid of the words:
+
 
 * Team
 * Ruby
@@ -166,6 +167,7 @@ ABSTRACT
     File.open("README.md", 'w') do |file|
       file.write(snark)
       file.write(abstract)
+      file.write("## Work Herstory\n")
       file.write("```json\n")
       file.write(for_human)
       file.write("\n```")
