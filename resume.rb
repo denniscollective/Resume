@@ -18,7 +18,7 @@ class Job
   end
 
   def end_date
-    @end_date.to_s
+    @end_date && @end_date.to_s #apprently try is active support?
   end
 
   def to_hash

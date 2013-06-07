@@ -32,7 +32,6 @@ I try to work sensibly and sustainably with teams who take pride in their work.
 {
   "Blazing Cloud": {
     "start_date": "2012-11-15",
-    "end_date": "",
     "title": "Software Artisan",
     "skills": [
       "team_lead",
