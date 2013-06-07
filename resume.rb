@@ -10,7 +10,7 @@ class Job
   end
 
   def description
-    @description.strip
+    "\n      " + @description.strip
   end
 
   def to_hash
@@ -83,12 +83,12 @@ class History
       job.title = "Chief Magical Officer"
       job.skills = [:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]
       job.description = <<-DESCRIPTION
-      Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy
-      operations cost, which was holding back development from being able to scale the platform effectively.
-      Through a separation of client and server side applications, server throughput was increased by an
-      order of magnitude. Development of the client as a Javascript Application (Backbone) allowed us to
-      rapidly iterate on experimental experiences. We delivered a completely different product
-      called Mark.io (https://makr.io/) on that utilized the existing server architecture.
+      Diaspora is a distributed open source social network. On joining the core team was burdened with
+      a heavy operations cost, which was holding back development from being able to scale the platform
+      effectively. Through a separation of client and server side applications, server throughput was
+      increased by an order of magnitude. Development of the client as a Javascript Application (Backbone)
+      allowed us to rapidly iterate on experimental experiences. We delivered a completely
+      different product called Mark.io (https://makr.io/) on that utilized the existing server architecture.
 
       Through a simplification of Infrastructure (removing unnecessary services and dependencies) we
       were able to run Diaspora on the Heroku platform, allowing the developers/business owners to

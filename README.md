@@ -34,7 +34,8 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "start_date": "2012-11-15",
     "title": "Software Artisan",
     "skills": "[:team_lead, :tech_lead, :agile_slash_lean, :team_building, :advanced_javascript_and_rails_wizardry]",
-    "description": "Work with stake holders to help define products that fill a need.
+    "description": "
+      Work with stake holders to help define products that fill a need.
       Work with developers to build teams that make great software that fills actual business needs."
   },
   "Diaspora": {
@@ -43,7 +44,8 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "end_date": "2012-01-07",
     "title": "Chief Magical Officer",
     "skills": "[:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]",
-    "description": "Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy
+    "description": "
+      Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy
       operations cost, which was holding back development from being able to scale the platform effectively.
       Through a separation of client and server side applications, server throughput was increased by an
       order of magnitude. Development of the client as a Javascript Application (Backbone) allowed us to
@@ -60,7 +62,8 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "end_date": "2011-12-31",
     "title": "Agile Software Engineer",
     "skills": "[:pair_programming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]",
-    "description": "Worked with Pivotal Labs to Develop applications for clients. The clients presented many different needs
+    "description": "
+      Worked with Pivotal Labs to Develop applications for clients. The clients presented many different needs
       such as having a team trained up, working with existing teams to refine practices and add horsepower,
       help prioritize a sensible course of development for the business trajectory, and glitter."
   },
@@ -69,7 +72,8 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "end_date": "2010-10-01",
     "title": "Software Developer",
     "skills": "[:ruby, :pair_programming, :test_driven_development, :rails, :javascript, :jquery]",
-    "description": "Developed a social network around voting and civic activism for the 2010 mid-term elections."
+    "description": "
+      Developed a social network around voting and civic activism for the 2010 mid-term elections."
   },
   "Internaut Design": {
     "website": "http://internautdesign.com",
@@ -77,7 +81,8 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "end_date": "2010-01-15",
     "title": "Intern-Superstar",
     "skills": "[:ruby, :pair_programming, :test_driven_development, :rails, :javascript, :jquery]",
-    "description": "Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's
+    "description": "
+      Learned Rails Development/Industry Best Practices by pairing with team members on the consultancy's
       scrum project management tool \"ScrumNinja\", as well as client projects."
   }
 }
