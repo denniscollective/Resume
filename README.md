@@ -45,12 +45,12 @@ I try to work sensibly and sustainably with teams who take pride in their work.
     "title": "Chief Magical Officer",
     "skills": "[:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]",
     "description": "
-      Diaspora is a distributed open source social network. On joining the core team was burdened with a heavy
-      operations cost, which was holding back development from being able to scale the platform effectively.
-      Through a separation of client and server side applications, server throughput was increased by an
-      order of magnitude. Development of the client as a Javascript Application (Backbone) allowed us to
-      rapidly iterate on experimental experiences. We delivered a completely different product
-      called Mark.io (https://makr.io/) on that utilized the existing server architecture.
+      Diaspora is a distributed open source social network. On joining the core team was burdened with
+      a heavy operations cost, which was holding back development from being able to scale the platform
+      effectively. Through a separation of client and server side applications, server throughput was
+      increased by an order of magnitude. Development of the client as a Javascript Application (Backbone)
+      allowed us to rapidly iterate on experimental experiences. We delivered a completely
+      different product called Mark.io (https://makr.io/) on that utilized the existing server architecture.
 
       Through a simplification of Infrastructure (removing unnecessary services and dependencies) we
       were able to run Diaspora on the Heroku platform, allowing the developers/business owners to
