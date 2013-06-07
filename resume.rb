@@ -9,11 +9,15 @@ class Job
     @company = company
   end
 
+  def description
+    @description.strip
+  end
+
   def to_hash
     {
       @company => ATTRIBUTES.inject({}) do |job, attribute|
         value = self.send(attribute)
-        job.merge!(attribute => value.to_s.strip) if value
+        job.merge!(attribute => value.to_s) if value
         job
       end
     }
@@ -87,4 +91,4 @@ DESCRIPITON
 
 resume = [blazing_cloud, diaspora, pivotal, circle_voting, internaut].inject({}) {|resume, job| resume.merge(job.to_hash)}
 
-File.open("resume.json", 'w') { |file| file.write(JSON.pretty_generate(resume).gsub(/\\n/, "\n")) }
+File.open("resume.json", 'w') { |file| file.write(JSON.pretty_generate(resume).gsub(/\\n/, "\n\s\s\s\s\s\s")) }
