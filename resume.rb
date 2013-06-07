@@ -125,5 +125,8 @@ class Resume
   end
 end
 
+#apparently I feel more comfortable writing code than english, so I had to hide the english in as much code as possible.
+#don't worry though, I quite enjoy speaking english, with people even!
+
 resume = Resume.new
 File.open("resume.json", 'w') { |file| file.write(resume.for_human) }

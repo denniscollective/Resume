@@ -14,7 +14,7 @@ I am not afraid of the words:
 * Ruby
 * Javascript
 * Backbone
-* Service Oriented Architecture (when it is appropriate)
+* Service Oriented Architecture (when it's appropriate)
 * Object Oriented
 * agile (so long as it's a lower case a)
 * Lean
