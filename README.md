@@ -62,7 +62,7 @@ I try to work sensibly and sustainably with teams who take pride in their work.
       effectively. Through a separation of client and server side applications, server throughput was
       increased by an order of magnitude. Development of the client as a Javascript Application
       (Backbone) allowed us to rapidly iterate on experimental experiences. We delivered a completely
-      different product called Mark.io (https://makr.io/) on that utilized the existing server
+      different product called Mark.io (https://makr.io/) that utilized the existing server
       architecture.
 
       Through a simplification of Infrastructure (removing unnecessary services and dependencies) we
