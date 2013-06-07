@@ -65,7 +65,7 @@ class History
       job.start_date = Date.parse("2011-1-1")
       job.end_date = Date.parse("2011-12-31")
       job.title = "Agile Software Engineer"
-      job.skills = [:pair_progamming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]
+      job.skills = [:pair_programming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]
       job.description = <<-DESCRIPTION
       Worked with Pivotal Labs to Develop applications for clients. The clients presented many different needs
       such as having a team trained up, working with existing teams to refine practices and add horsepower,

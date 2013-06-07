@@ -28,7 +28,7 @@
     "start_date": "2011-01-01",
     "end_date": "2011-12-31",
     "title": "Agile Software Engineer",
-    "skills": "[:pair_progamming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]",
+    "skills": "[:pair_programming, :test_driven_development, :team_building, :rails, :javascript, :consulting, :agile]",
     "description": "Worked with Pivotal Labs to Develop applications for clients. The clients presented many different needs
       such as having a team trained up, working with existing teams to refine practices and add horsepower,
       help prioritize a sensible course of development for the business trajectory, and glitter."
