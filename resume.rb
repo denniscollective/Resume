@@ -87,7 +87,7 @@ class History
     Job.new("Diaspora").tap do |job|
       job.website = "https://joindiaspora.com"
       job.start_date = Date.parse("2012-1-1")
-      job.end_date = Date.parse("2012-1-7")
+      job.end_date = Date.parse("2012-7-1")
       job.title = "Chief Magical Officer"
       job.skills = [:tech_lead, :scaling_rails, :lean_startuping, :javascript_superstardom, :fire_fighting]
       job.description = <<-DESCRIPTION
