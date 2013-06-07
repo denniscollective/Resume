@@ -1,7 +1,8 @@
-For my job history run:
+To regenerate this file run:
     $ ruby resume.rb
 
-...or you could just check it out at https://github.com/denniscollective/resume/blob/master/resume.json
+You migh twant to see what else you can learn by reading the source
+https://github.com/denniscollective/resume/blob/master/resume.rb
 
 In Brief:
 
